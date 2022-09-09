@@ -22,7 +22,7 @@
  */
 function create_block_rone_blocks_block_init() {
 	register_block_type( __DIR__ . '/build/2block' );
-//	register_block_type( __DIR__ . '/build/MapBlock' );
+	register_block_type( __DIR__ . '/build/MapBlock' );
 }
 add_action( 'init', 'create_block_rone_blocks_block_init' );
 

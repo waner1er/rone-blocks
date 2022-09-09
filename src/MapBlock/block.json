@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/rone-map",
+  "version": "0.1.0",
+  "title": "Rone Map Block",
+  "category": "text",
+  "icon": "location-alt",
+  "description": "un block de map ",
+  "supports": {
+	"html": false
+  },
+  "attributes": {
+	"popup_content": {
+	  "type": "string"
+	},
+	"lng": {
+	  "type": "string"
+	},
+	"lat": {
+	  "type": "string"
+	}
+  },
+  "textdomain": "rone-map",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
