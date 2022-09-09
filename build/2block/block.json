@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/rone-blocks-2",
+  "version": "0.1.0",
+  "title": "Rone Blocks 2",
+  "category": "text",
+  "icon": "smiley",
+  "description": "un block fait avec create-block ",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "pictureID": {
+      "type": "number",
+      "default": null
+    },
+    "pictureURL": {
+      "type": "string",
+      "selector": "url"
+    },
+    "pictureAlt": {
+      "type": "string",
+      "selector": "img"
+    },
+    "skills": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "textdomain": "rone-blocks-2",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
